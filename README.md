@@ -1,4 +1,4 @@
-# Ant Colony Optimization in Python
+# Ant Colony Optimization
 
 This repository has been created to store our small school project that tries to "_solve_" the Traveling Salesman problem with an Ant Colony Optimization algorithm in Python. 
 
