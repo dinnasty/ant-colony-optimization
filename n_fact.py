@@ -46,6 +46,6 @@ best_path = get_best_path(list(range(9)), dists, points)
 display_path(best_path[0], points)
 plot_points(points)
 
-plt.title("Meilleur chemin - méthode exhaustive")
+plt.title("Best path - exhaustive method")
 
 plt.show()
