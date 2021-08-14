@@ -1,12 +1,12 @@
 """
-Regroupement de différentes fonctions utiles aux deux programmes
+Repo of functions used in the two other .py files
 """
 import random as rnd
 import matplotlib.pyplot as plt
 import numpy as np
 import numpy.random as npr
 
-def gen_points(nb_points):		#génère des points dans sur le plan
+def gen_points(nb_points):		#generates points on the plane
 	points = []
 	for i in range(nb_points):
 		x = rnd.random() * 2 - 1
@@ -15,7 +15,7 @@ def gen_points(nb_points):		#génère des points dans sur le plan
 
 	return points
 
-def plot_points(points):		#affiche les points sur le plan
+def plot_points(points):		#shows a list of points on the plane
 	x_list = []
 	y_list = []
 
@@ -24,7 +24,7 @@ def plot_points(points):		#affiche les points sur le plan
 		y_list.append(pt[1])
 	plt.scatter(x_list, y_list)
 
-def display_path(path, points):		#affiche le chemin sur le plan
+def display_path(path, points):		#shows the path taken by an ant on the plane
     nb_points = len(points)
     
     x_list = []
@@ -40,7 +40,7 @@ def display_path(path, points):		#affiche le chemin sur le plan
 
     plt.plot(x_list, y_list, 'o-')
 
-def dist(pt1, pt2):		#calcule la distance entre deux points
+def dist(pt1, pt2):		#calculate the distance between two points
 	dx = pt2[0] - pt1[0]
 	dy = pt2[1] - pt1[1]
 
@@ -48,7 +48,7 @@ def dist(pt1, pt2):		#calcule la distance entre deux points
 
 	return distance
 
-def create_distance_matrix(points):		#créé la matrice des distances entre tous les points
+def create_distance_matrix(points):		#creates the distance matrix between all of the points
     nb_points = len(points)
     matrix = np.ones((nb_points, nb_points))
 
