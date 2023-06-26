@@ -30,7 +30,7 @@ def get_all_paths(inds, dists, points, fp = False):
 ''' Selects the best path'''
 def get_best_path(inds, dists, points):
         paths = get_all_paths(inds, dists, points, True)
-        best_path = min(paths, key = lambda p: p[1]) # p[1] correction à l'élément length de (path, length)
+        best_path = min(paths, key = lambda p: p[1]) # p[1] correction to the length element of (path, length)
 
         return best_path
 
