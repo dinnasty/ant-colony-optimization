@@ -1,16 +1,18 @@
 # Ant Colony Optimization
 
-This repository has been created to store our small school project that tries to "_solve_" the Traveling Salesman problem with an Ant Colony Optimization algorithm in Python. 
-
- - [x] Python 3.8.5
+This repository has been created to archive a small school project that attempts to find a good approximate solution to the **Traveling Salesman** problem using an [Ant Colony Optimization](https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms) algorithm in Python. 
 
 ### Instructions
 
 * `fourmis.py` is the optimization algorithm
-* `n_fact.py` is a standard brute-force algorithm that gives the best solution
-* `utils.py` is a repository of functions used by both algorithms
+* `n_fact.py` is a standard brute-force algorithm that gives the best solution in factorial time
+* `utils.py` is a repository of useful functions used by both algorithms
 
-### Python libraries used
+### Python version and librairies
 
+The archived files have been tested with
+ - [x] Python 3.8.5
+
+The following librairies are needed:
 * `matplotlib`
 * `numpy`
