@@ -23,7 +23,7 @@ def gen_probas(last_point, pt_left, pheromone_matrix, distance_matrix, a, b):
 
 		probas.append(proba)
 		total += proba
-	probas = [proba / total for proba in probas] # On divise par la somme des probabilités pour obtenir un SCE (somme des probabilités = 1)
+	probas = [proba / total for proba in probas] #Probability normalization
 	return probas
 
 ''' Next point chosen by the ant given the probabilities '''
