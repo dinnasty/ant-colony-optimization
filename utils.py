@@ -40,7 +40,7 @@ def display_path(path, points):		#shows the path taken by an ant on the plane
 
     plt.plot(x_list, y_list, 'o-')
 
-def dist(pt1, pt2):		#calculate the distance between two points
+def dist(pt1, pt2):		#calculates the distance between two points
 	dx = pt2[0] - pt1[0]
 	dy = pt2[1] - pt1[1]
 
