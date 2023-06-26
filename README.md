@@ -16,5 +16,3 @@ The archived files have been tested with
 The following librairies are needed:
 * `matplotlib`
 * `numpy`
-
-### Please use freely
