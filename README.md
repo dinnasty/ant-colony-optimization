@@ -1,6 +1,6 @@
 # Ant Colony Optimization
 
-This repository has been created to archive a small school project that attempts to find a good approximate solution to the **Traveling Salesman** problem using an [Ant Colony Optimization](https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms) algorithm in Python. 
+This repository has been created to archive a small school project that attempts to find a good approximate solution to the **Travelling Salesman** problem using an [Ant Colony Optimization](https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms) algorithm in Python. 
 
 ### Instructions
 
