@@ -10,9 +10,8 @@ This repository has been created to archive a small school project that attempts
 
 ### Python version and librairies
 
-The archived files have been tested with
- - [x] Python 3.8.5
+[x] Tested with Python 3.8.5
 
-The following librairies are needed:
+Python libraries required:
 * `matplotlib`
 * `numpy`
